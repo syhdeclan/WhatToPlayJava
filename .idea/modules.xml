@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/recommender/DataLoader/DataLoader.iml" filepath="$PROJECT_DIR$/recommender/DataLoader/DataLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/background/background.iml" filepath="$PROJECT_DIR$/background/background.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.syh.whattoplay.iml" filepath="$PROJECT_DIR$/com.syh.whattoplay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recommender/recommender.iml" filepath="$PROJECT_DIR$/recommender/recommender.iml" />
+    </modules>
+  </component>
+</project>
