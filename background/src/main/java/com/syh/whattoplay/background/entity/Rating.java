@@ -10,9 +10,9 @@ public class Rating {
 
     @Id
     private String _id;
-    private Integer uid;
+    private String uid;
     private Integer gid;
-    private Integer score;
-    private Integer timestamp;
+    private Float score;
+    private Long timestamp;
 
 }

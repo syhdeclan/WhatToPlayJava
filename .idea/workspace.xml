@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a995c9d8-466f-485d-8692-4690844fbb6c" name="Default Changelist" comment="" />
+    <list default="true" id="a995c9d8-466f-485d-8692-4690844fbb6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_75.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/annotation/Authorize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/dao/impl/GameDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/dao/impl/RatingDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/entity/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/entity/WxOpenIdResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/global/GlobalExceptionHandlerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/global/HttpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/global/WxException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/global/WxResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/interceptors/AuthorizationInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/interceptors/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/utils/JWTUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/vo/LoginVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/vo/MarkingListVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/vo/RatingVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/background/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/controller/RatingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/controller/RatingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/dao/GameDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/dao/GameDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/dao/RatingDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/dao/RatingDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/entity/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/entity/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/service/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/service/GameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/service/RatingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/syh/whattoplay/background/service/RatingService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +50,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -32,6 +71,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1o5WGw5dmgVJh3LLiMkCrnDxjVh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,9 +83,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/recommender/DataLoader/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -73,6 +115,19 @@
     <configuration name="DataLoader" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="DataLoader" />
       <module name="DataLoader" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,12 +172,39 @@
       <workItem from="1613909597682" duration="396000" />
       <workItem from="1616381077089" duration="6846000" />
       <workItem from="1616419838241" duration="1763000" />
-      <workItem from="1616722783366" duration="500000" />
+      <workItem from="1616722783366" duration="1441000" />
+      <workItem from="1617196321476" duration="466000" />
+      <workItem from="1617196815767" duration="1851000" />
+      <workItem from="1617246716285" duration="2117000" />
+      <workItem from="1617264510361" duration="878000" />
+      <workItem from="1617351799651" duration="2220000" />
+      <workItem from="1617361873378" duration="3699000" />
+      <workItem from="1617414424242" duration="4750000" />
+      <workItem from="1617442817936" duration="1496000" />
+      <workItem from="1617517139873" duration="4667000" />
+      <workItem from="1617550050595" duration="1997000" />
+      <workItem from="1617598071266" duration="2352000" />
+      <workItem from="1617623454827" duration="2108000" />
+      <workItem from="1617701873666" duration="1161000" />
+      <workItem from="1617764258149" duration="11499000" />
+      <workItem from="1617847740472" duration="5570000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
